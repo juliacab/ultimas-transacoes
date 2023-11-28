@@ -1,0 +1,98 @@
+h2 {
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 2px;
+    font-size:30px;
+    font-weight:bold;
+
+}
+body{
+    background-color: #F1F2F3;
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+   color: #369FFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.coluna{
+    float: left;
+    width: 25%;
+}
+.link-vertodos{
+    text-decoration: none;
+    left:25px;
+    Top:300px; 
+    font-weight:bold;
+    cursor: pointer;
+      
+}
+label{
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-weight: 500px;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: absolute;
+    font-weight:bold;
+  
+}
+
+  span {
+    position: absolute;
+    top: 170px;
+    left: 43px;
+  }
+  h4 {
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 2px;
+    font-size:25px;
+    font-weight:bold;
+  }
+  h5 {
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 2px;
+    font-size:10px;
+    font-weight:bold;
+  }
+
+
+.background-image{ 
+    background-image: url(fundo-tela.png); 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+}
+li{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left 0px;
+}
+.retangulo {
+  width: 300px;
+  height: 80px;
+  background-color: #f7f7f7;
+  margin-top: 555px;
+  border-radius: 16px;
+  box-shadow: 4px 4px 4px 0px rgba(173, 127, 211, 0.226);
+  text-align: center;
+  line-height: 65px;
+  margin: 10px;
+  display: inline-block;
+  font-family: 'Manrope', sans-serif;
+  font-weight:bold;
+  cursor: pointer;
+}
+th{
+  font-size: 18px;
+  font-weight:bold;
+ }

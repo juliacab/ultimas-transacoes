@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Histórico de transações</title>
+    <h2> Histórico de transações</h2>
+    <link rel="stylesheet" type="text/css" href="css\index.css">
+    <style>
+        /* links do histórico de transações */
+        .clicavel {
+            cursor: pointer;
+            color: black;
+            text-decoration: underline;
+            list-style-type: none;
+        }
+         /* imagem de fundo de tela */
+        body{
+            background-image: url(images/fundo-tela.png);
+            background-size: cover; 
+            background-position: center;  
+        }
+        table {
+            border-collapse: collapse;
+            width: 30%;
+        }
+
+        th, td {
+            font-family: 'Manrope', sans-serif;
+            border: 1px solid #f5d170;
+            text-align: left;
+            padding: 25px;
+            background-color: #f1f5f8;
+            box-shadow: 4px 4px 4px 0px rgba(173, 127, 211, 0.226);
+        }
+        ul{
+         list-style: none;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tr>
+        <th>TRANSAÇÕES APROVADAS</th>
+    </tr>
+    <tr>
+        <td>
+            <!-- Lista de transações (o href não foi em todos os links, apenas em 4 para demonstração) -->
+            <ul id="listaItens"> 
+                <li href="html/transacao1.html" class="clicavel" onclick="redirecionarParaPagina('transacao1.html')">Ceconsud R$105,10</li> <br>
+                <li href="html/transacao2.html" class="clicavel" onclick="redirecionarParaPagina('transacao2.html')">Spotify R$11,90 </li><br>
+                <li href="html/transacao3.html" class="clicavel" onclick="redirecionarParaPagina('transacao3.html')">Ifood R$23,65 </li><br>
+                <li href="html/transacao4.html" class="clicavel" onclick="redirecionarParaPagina('transacao4.html')">AMAZON R$240,02 </li><br>
+                <li class="clicavel" onclick="redirecionarParaPagina('transacao5.html')">MercadinhoBeiraRio R$52,90 </li><br>
+                <li class="clicavel" onclick="redirecionarParaPagina('transacao6.html')">Ifood R$29,40 </li><br>
+                <li class="clicavel" onclick="redirecionarParaPagina('transacao7.html')">Renner R$205,56 </li><br>
+                <li class="clicavel" onclick="redirecionarParaPagina('transacao8.html')">McDonalds R$66,90 </li><br>
+                <li class="clicavel" onclick="redirecionarParaPagina('transacao9.html')">Netshoes R$99,90 </li><br>
+                <li  class="clicavel" onclick="redirecionarParaPagina('transacao10.html')">AMAZON R$78,56 </li><br>
+            </ul>
+        </td>
+    </tr>
+</table>
+<script>
+ function redirecionarParaPagina(pagina) {
+    window.location.href = pagina;
+}
+</script>
+</body>
+</html>
